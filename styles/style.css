@@ -152,10 +152,17 @@ section {
 .conteudo-texto{
     background-color: #f1f1f1;
     padding: 50px;
-}
 
+}
+.conteudo-texto a {
+ display: flex;
+ margin: 10px 0;
+ width: max-content;
+
+
+}
 .conteudo-texto h2, .conteudo-texto p{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /* Estilo para os inputs de contato */
